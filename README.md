@@ -1,7 +1,7 @@
 # Data Communication Live Code Implementation(DCLCI)
 This project is an Android application that demonstrates various data communication techniques. These techniques are essential in ensuring data integrity and error detection in digital communication systems. The app is implemented using Java and XML and provides functionalities for bit stuffing, bit de-stuffing, character stuffing, character de-stuffing, parity generation, parity checking, and CRC generation.
 # Features
- **Bit Stuffing**: Insert extra bits into data to prevent unintended flag sequences.
+- **Bit Stuffing**: Insert extra bits into data to prevent unintended flag sequences.
 - **Bit De-Stuffing**: Remove the extra bits added during bit stuffing.
 - **Character Stuffing**: Insert additional characters to prevent unintended control sequences.
 - **Character De-Stuffing**: Remove the additional characters added during character stuffing.
