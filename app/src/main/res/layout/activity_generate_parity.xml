@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/crime2"
+    android:orientation="vertical"
+    android:gravity="center"
+    tools:context=".Generate_Parity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Enter only 0/1 as input"
+        android:textSize="25dp"
+        android:fontFamily="@font/amaranth_bold"
+        android:textColor="@color/chokolate"
+        />
+    <LinearLayout
+        android:background="@drawable/box"
+        android:layout_marginLeft="40dp"
+        android:backgroundTint="@color/crime"
+        android:layout_marginRight="40dp"
+        android:layout_width="300dp"
+        android:layout_height="350dp"
+        android:layout_marginTop="20dp"
+        android:elevation="20dp"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <EditText
+            android:id="@+id/enter_paritybitid"
+            android:layout_margin="50dp"
+            android:backgroundTint="@color/chokolate"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:inputType="number"
+            android:textAlignment="center"
+            android:background="@drawable/box"
+            android:hint="Enter Bit"
+            android:textColor="@color/white"
+            android:textColorHint="@color/white"
+            />
+
+        <TextView
+            android:id="@+id/result_id"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_marginLeft="50dp"
+            android:layout_marginRight="50dp"
+            android:layout_marginBottom="10dp"
+            android:layout_marginTop="10dp"
+            android:gravity="center"
+            android:textColor="@color/white"
+            android:background="@drawable/box"
+            android:hint="Result"
+            android:textColorHint="@color/white"
+            android:textSize="19dp"
+            android:backgroundTint="@color/chokolate"/>
+        <RadioGroup
+            android:id="@+id/radio"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <RadioButton
+                android:id="@+id/even"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Even Parity"
+                android:textColor="@color/black"
+                android:textSize="16dp"
+                android:layout_marginRight="10dp"
+                android:textStyle="bold"/>
+            <RadioButton
+                android:id="@+id/odd"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Odd Parity"
+                android:textColor="@color/black"
+                android:textSize="16dp"
+                android:textStyle="bold"/>
+        </RadioGroup>
+
+    </LinearLayout>
+    <Button
+        android:id="@+id/parity_buttonid"
+        android:layout_marginTop="25dp"
+        android:layout_width="wrap_content"
+        android:layout_height="60dp"
+        android:textSize="20dp"
+        android:backgroundTint="@color/rose"
+        android:fontFamily="@font/amaranth_bold"
+        android:text="GENERATE PARITY"
+        />
+
+</LinearLayout>
