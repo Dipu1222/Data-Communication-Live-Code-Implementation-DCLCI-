@@ -38,3 +38,6 @@ These instructions will help you set up the project on your local machine for de
 # Contributing
 Contributions are welcome! Please fork the repository and submit pull requests.
 # Sample output
+![1](https://github.com/Dipu1222/Data-Communication-Live-Code-Implementation-DCLCI-/assets/106147471/0dd151e0-4f4a-49d6-8c55-b20736906f2a)
+# Sample output 2
+![2](https://github.com/Dipu1222/Data-Communication-Live-Code-Implementation-DCLCI-/assets/106147471/43238046-680f-4f1f-afba-2e2c9762c108)
